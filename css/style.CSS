@@ -61,6 +61,18 @@ NAV{
 
 }
 
+.top-left{
+    position: absolute;
+    top: 5em;
+    left: 4.8em;
+    max-width: 70%;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25pt;
+    letter-spacing: 1px;
+    color: white;
+    word-wrap: break-word;
+}
+
 .container{
     width: 100%;
     margin: auto;
@@ -153,17 +165,6 @@ NAV{
 
 }
 
-.top-left{
-    position: absolute;
-    top: 5em;
-    left: 6em;
-    max-width: 70%;
-    font-family: 'Work Sans', sans-serif;
-    font-size: 25pt;
-    letter-spacing: 1px;
-    color: white;
-    word-wrap: break-word;
-}
 
 .mastere{
     text-align: left;
@@ -301,6 +302,7 @@ NAV{
 }
 
 @media only screen and (max-width: 950px){
+    
     .text{
         display: flex;
         align-items: center;
@@ -313,6 +315,18 @@ NAV{
         background-image: linear-gradient(to right, #1f487e , #376996);
         border-radius: 2px;
         min-height: 5vh;
+    }
+
+    .top-left{
+        position: absolute;
+        top: 5em;
+        left: 2.8em;
+        max-width: 70%;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 22pt;
+        letter-spacing: 1px;
+        color: white;
+        word-wrap: break-word;
     }
 
 }
