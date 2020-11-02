@@ -271,6 +271,18 @@ NAV{
         list-style: none;
     }
 
+    .top-left{
+        position: absolute;
+        top: 5em;
+        left: 3.8em;
+        max-width: 60%;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 23pt;
+        letter-spacing: 1px;
+        color: white;
+        word-wrap: break-word;
+    }
+
     .masternavn{
         text-align: left;
         display: flex;
@@ -338,7 +350,7 @@ NAV{
     .top-left{
         position: absolute;
         top: 5em;
-        left: 5.3em;
+        left: 3em;
         max-width: 60%;
         font-family: 'Work Sans', sans-serif;
         font-size: 20pt;
