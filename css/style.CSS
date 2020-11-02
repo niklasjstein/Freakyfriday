@@ -73,6 +73,18 @@ NAV{
     word-wrap: break-word;
 }
 
+.top-left2{
+    position: absolute;
+    top: 2em;
+    left: 7.6em;
+    max-width: 60%;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25pt;
+    letter-spacing: 1px;
+    color: white;
+    word-wrap: break-word;
+}
+
 .container{
     width: 100%;
     margin: auto;
@@ -242,6 +254,18 @@ NAV{
         word-wrap: break-word;
     }
 
+    .top-left2{
+        position: absolute;
+        top: 2em;
+        left: 7.6em;
+        max-width: 60%;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 20pt;
+        letter-spacing: 1px;
+        color: white;
+        word-wrap: break-word;
+    }
+
     .image-container{
         background-color:black;
         height: 720px;
@@ -292,6 +316,18 @@ NAV{
         max-width: 60%;
         font-family: 'Work Sans', sans-serif;
         font-size: 23pt;
+        letter-spacing: 1px;
+        color: white;
+        word-wrap: break-word;
+    }
+
+    .top-left2{
+        position: absolute;
+        top: 2em;
+        left: 4em;
+        max-width: 60%;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 20pt;
         letter-spacing: 1px;
         color: white;
         word-wrap: break-word;
@@ -403,6 +439,18 @@ NAV{
         word-wrap: break-word;
     }
 
+    .top-left2{
+        position: absolute;
+        top: 2em;
+        left: 3.4em;
+        max-width: 80%;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 18pt;
+        letter-spacing: 1px;
+        color: white;
+        word-wrap: break-word;
+    }
+
     .masternavn{
         text-align: left;
         display: flex;
@@ -494,6 +542,18 @@ NAV{
         word-wrap: break-word;
     }
 
+    .top-left2{
+        position: absolute;
+        top: 2em;
+        left: 2.2em;
+        max-width: 60%;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 14pt;
+        letter-spacing: 1px;
+        color: white;
+        word-wrap: break-word;
+    }
+
     .masternavn{
         text-align: left;
         display: flex;
@@ -554,6 +614,18 @@ NAV{
             color: white;
             word-wrap: break-word;
         }
+
+        .top-left2{
+            position: absolute;
+            top: 2em;
+            left: 2.2em;
+            max-width: 75%;
+            font-family: 'Work Sans', sans-serif;
+            font-size: 12pt;
+            letter-spacing: 1px;
+            color: white;
+            word-wrap: break-word;
+        }   
 
         .image-container{
             background-color:black;
@@ -686,15 +758,16 @@ NAV{
 
     .top-left2{
         position: absolute;
-        top: 6em;
-        left: 1em;
-        max-width: 90%;
+        top: 1.2em;
+        left: 1.2em;
+        max-width: 80%;
         font-family: 'Work Sans', sans-serif;
-        font-size: 14pt;
+        font-size: 10pt;
         letter-spacing: 1px;
         color: white;
         word-wrap: break-word;
     }
+
 
     .image-container{
         background-color:black;
