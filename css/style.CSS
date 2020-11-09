@@ -207,13 +207,51 @@ NAV{
     min-height: 10vh;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-around; 
 }
 
 .footertext{
     color: white;
     font-size: 10pt;
     text-align: center;
+}
+
+.textContainer{
+    align-items: center;
+    text-align: center;
+    line-height: 1.5;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.heading1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paragraph1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.textContainer2{
+    align-items: center;
+    text-align: center;
+    line-height: 1.5;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.heading2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 42pt;
+}
+
+.contactInfo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26pt;
 }
 
 
@@ -498,6 +536,30 @@ NAV{
         font-size: 11pt;
     }
 
+}
+
+@media only screen and (max-width: 685px){
+
+    .textContainer2{
+        align-items: center;
+        text-align: center;
+        line-height: 2;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+
+    .heading2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 32pt;
+    }
+    
+    .contactInfo{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16pt;
+    }
 }
 
 @media only screen and (max-width: 670px){
@@ -814,6 +876,18 @@ NAV{
         background-image: linear-gradient(to right, #1f487e , #376996);
         border-radius: 2px;
         min-height: 5vh;
+    }
+}
+
+@media only screen and (max-width: 420px){
+    .heading2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 28pt;
+    }
+    
+    .contactInfo{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12pt;
     }
 }
 
